@@ -10,6 +10,9 @@ namespace EvidencijaElEnegije
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("PARTIZAN SAMPION");
+
         }
     }
 }
