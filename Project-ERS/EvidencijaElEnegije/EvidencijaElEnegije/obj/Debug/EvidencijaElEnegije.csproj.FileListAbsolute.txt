@@ -1,0 +1,7 @@
+C:\Users\SRDJAN\Desktop\faks\Treca godina\ERS\Projekat\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\EvidencijaElEnegije.exe.config
+C:\Users\SRDJAN\Desktop\faks\Treca godina\ERS\Projekat\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\EvidencijaElEnegije.exe
+C:\Users\SRDJAN\Desktop\faks\Treca godina\ERS\Projekat\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\EvidencijaElEnegije.pdb
+C:\Users\SRDJAN\Desktop\faks\Treca godina\ERS\Projekat\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\obj\Debug\EvidencijaElEnegije.csproj.AssemblyReference.cache
+C:\Users\SRDJAN\Desktop\faks\Treca godina\ERS\Projekat\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\obj\Debug\EvidencijaElEnegije.csproj.CoreCompileInputs.cache
+C:\Users\SRDJAN\Desktop\faks\Treca godina\ERS\Projekat\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\obj\Debug\EvidencijaElEnegije.exe
+C:\Users\SRDJAN\Desktop\faks\Treca godina\ERS\Projekat\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\obj\Debug\EvidencijaElEnegije.pdb
