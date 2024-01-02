@@ -8,11 +8,12 @@ namespace EvidencijaElEnegije
 {
     internal class Dan
     {
-        public List<potrosnjaPoSatu> pps = new List<potrosnjaPoSatu>();
+        public List<potrosnjaPoSatu> ppsList = new List<potrosnjaPoSatu>();
 
         // ostv -> true | prog -> flase
         public bool ostvarena { get; set; }
 
+        public potrosnjaPoSatu pps { get; set; }
         public int dan { get; set; }
         public int mesec { get; set; }
         public int godina { get; set; }
@@ -20,13 +21,22 @@ namespace EvidencijaElEnegije
         public Dan(List<potrosnjaPoSatu> PPS, bool OSTVARENA)
         {
             ostvarena = OSTVARENA;
+            ppsList = PPS;
+        }
+
+        public Dan(int DAN, int MESEC, int GODINA, bool OSTVARENA,potrosnjaPoSatu PPS)
+        {
+            dan = DAN;
+            mesec = MESEC;
+            godina = GODINA;
+            ostvarena = OSTVARENA;
             pps = PPS;
         }
 
         public Dan(List<potrosnjaPoSatu> PPS, bool OSTVARENA, int DAN, int MESEC, int GODINA)
         {
             ostvarena = OSTVARENA;
-            pps = PPS;
+            ppsList = PPS;
             dan = DAN;
             mesec = MESEC;
             godina = GODINA;

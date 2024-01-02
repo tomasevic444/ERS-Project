@@ -7,6 +7,12 @@ using System.Xml.Linq;
 using System.IO;
 using System.Xml;
 
+public class DirektorijumPath
+{
+    public const string PathDatoteke = @"C:\Users\SRDJAN\Desktop\faks\Treca godina\ERS\Projekat\Project-ERS\Datoteke\";
+    public const string PathBazaPodataka = @"C:\Users\SRDJAN\Desktop\faks\Treca godina\ERS\Projekat\Project-ERS\Baza Podataka\";
+}
+
 
 namespace EvidencijaElEnegije
 {
@@ -14,19 +20,85 @@ namespace EvidencijaElEnegije
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1. Unos");
-
-            string unosStr = Console.ReadLine();
-
-
-
-            switch (unosStr)
+            string unosStr;
+            Unos unos = new Unos();
+            do
             {
-                case "1": unos(); break;
-            }
+                Console.WriteLine("1. Unos");
+                Console.WriteLine("10. Administratorski rezim");
+                Console.WriteLine("X -> Izlaz");
+                unosStr = Console.ReadLine();
+
+
+
+                switch (unosStr)
+                {
+                    case "1":
+                        unos.meni();
+                        break;
+                    case "10":
+                        administratorskiRezim();
+                        break;
+                }
+
+
+
+            } while (!unosStr.ToUpper().Equals("X"));
+
+
         }
 
 
+        static void administratorskiRezim()
+        {
+
+            string sifra;
+            int brPokusaja = 5;
+            do
+            {
+                if (brPokusaja < 5)
+                {
+                    Console.WriteLine("POGRESNA LOZINKA\tPreostalo pokusaja: " + brPokusaja);
+                }
+                Console.WriteLine("Sifra:");
+                sifra = Console.ReadLine();
+                brPokusaja--;
+            } while (!sifra.ToUpper().Equals("123") & brPokusaja != 0);
+            if (brPokusaja == 0)
+                return;
+
+            Console.WriteLine("\t======================================================================================================\t");
+            Console.WriteLine("\t=                                       ADMINISTRATORSKI REZIM                                       =\t");
+            Console.WriteLine("\t======================================================================================================\t");
+
+            string unosStr;
+            do
+            {
+                Console.WriteLine("1. Ponovo generisanje datoteka ostvarene potrosnje");
+                Console.WriteLine("2. Ponovo generisanje datoteka prognozirane potrosnje");
+                Console.WriteLine("3. Brisanje pojedinacnih datoteka");
+                Console.WriteLine("4. Brisanje svih datoteka");
+                Console.WriteLine("X -> Izlaz");
+                unosStr = Console.ReadLine();
+
+
+                generisanjeDatoteka gd = new generisanjeDatoteka();
+                switch (unosStr)
+                {
+                    case "1": gd.Generisanje(true);
+                        break;
+                    case "2": new generisanjeDatoteka().Generisanje(false);
+                        break;
+                    case "3":
+                        break;
+                    case "4": gd.ObrisiXMLDatoteke();
+                        break;
+
+                }
+
+            } while (!unosStr.ToUpper().Equals("X"));
+
+        }
 
 
 
@@ -44,9 +116,15 @@ namespace EvidencijaElEnegije
 
                 switch (unosStr)
                 {
-                    case "1": datNum = ispisDatoteka(); break;
+                    case "1": datNum = ispisDatoteka(); 
+                        break;
+                    case "x":
+                        break;
+                    case "X":
+                        break;
 
-                    default: Console.WriteLine("Pogresan unos!"); break;
+                    default: Console.WriteLine("Pogresan unos!"); 
+                        break;
                 }
 
 
@@ -55,7 +133,8 @@ namespace EvidencijaElEnegije
 
             int i = 0;
             List<int> datList = new List<int>();
-            do{
+            do
+            {
                 Console.WriteLine("\nIzaberi readni broj datoteke koju zelite da importujete u bazu podataka");
                 Console.WriteLine("X -> Izlaz");
 
@@ -63,14 +142,14 @@ namespace EvidencijaElEnegije
 
                 if (!unosStr.ToUpper().Equals("X"))
                 {
-                    
+
                     if (int.Parse(unosStr) < 0 || int.Parse(unosStr) > datNum)
                     {
                         Console.WriteLine("Datoteka sa rednim brojem " + unosStr + " ne postoji");
                     }
                     else
                     {
-                        if(i == 0)
+                        if (i == 0)
                         {
                             datList.Add(int.Parse(unosStr));
                         }
@@ -84,11 +163,11 @@ namespace EvidencijaElEnegije
                                 }
                                 else
                                 {
-                                    Console.WriteLine("Datoteku pod rednim brojem " + " je uspesno uneta");  
+                                    Console.WriteLine("Datoteku pod rednim brojem " + " je uspesno uneta");
                                 }
                             }
                         }
-                        
+
 
                     }
                 }
@@ -112,7 +191,7 @@ namespace EvidencijaElEnegije
         static int ispisDatoteka()
         {
             // Putanja do direktorijuma
-            string putanjaDoDirektorijuma = @"C:\Users\SRDJAN\Desktop\faks\Treca godina\ERS\Projekat\Project-ERS\Datoteke";
+            string putanjaDoDirektorijuma = DirektorijumPath.PathDatoteke;
 
 
             // Provera da li direktorijum postoji
@@ -127,7 +206,7 @@ namespace EvidencijaElEnegije
                 int i = 1;
                 foreach (string fajl in fajlovi)
                 {
-                    Console.WriteLine(i + ". " + Path.GetFileName(fajl));
+                    Console.WriteLine((i > 9 ? i.ToString() : ("0" + i)) + ". " + Path.GetFileName(fajl));
                     i++;
                 }
                 return i;
@@ -169,7 +248,7 @@ namespace EvidencijaElEnegije
         static void pravljenjeListe(List<int> datList, List<potrosnjaPoSatu> ppsList, List<Dan> danList)
         {
 
-            string putanjaDoDirektorijuma = @"C:\Users\SRDJAN\Desktop\faks\Treca godina\ERS\Projekat\Project-ERS\Datoteke";
+            string putanjaDoDirektorijuma = DirektorijumPath.PathDatoteke;
 
 
             // Provera da li direktorijum postoji
@@ -209,7 +288,7 @@ namespace EvidencijaElEnegije
             string[] parts = result1.Split('_');
             string result;
             // Ako postoje dijelovi nakon razdvajanja
-            
+
             // Prvi dio će biti ono što je ispred prvog _
             result = parts[0];
 
@@ -224,14 +303,14 @@ namespace EvidencijaElEnegije
                 pList.Add(new potrosnjaPoSatu(sat, load, oblast));
             }
 
-            danList.Add(new Dan(pList, ostv, int.Parse(parts[3].Substring(0,2)), int.Parse(parts[2]), int.Parse(parts[1]) ));
+            danList.Add(new Dan(pList, ostv, int.Parse(parts[3].Substring(0, 2)), int.Parse(parts[2]), int.Parse(parts[1])));
 
         }
 
         static void upisUBazuPodataka(List<potrosnjaPoSatu> ppsList, List<Dan> danList)
         {
 
-            string putanjaDoXmlDatoteke = @"C:\Users\SRDJAN\Desktop\faks\Treca godina\ERS\Projekat\Project-ERS\Baza Podataka\BazaPodataka.xml";
+            string putanjaDoXmlDatoteke = DirektorijumPath.PathBazaPodataka + "BazaPodataka.xml";
 
 
             using (XmlWriter writer = XmlWriter.Create(putanjaDoXmlDatoteke))
@@ -242,7 +321,7 @@ namespace EvidencijaElEnegije
                 {
                     writer.WriteStartElement("PROGNOZIRANI_LOAD_" + d.getDate());
 
-                    foreach (potrosnjaPoSatu entity in d.pps)
+                    foreach (potrosnjaPoSatu entity in d.ppsList)
                     {
                         writer.WriteStartElement("STAVKA");
                         DodajXmlElement(writer, "Sat", entity.sat.ToString());
