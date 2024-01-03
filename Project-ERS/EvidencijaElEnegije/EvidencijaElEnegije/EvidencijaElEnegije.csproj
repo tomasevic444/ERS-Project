@@ -79,14 +79,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dan.cs" />
-    <Compile Include="generisanjeDatoteka.cs" />
-    <Compile Include="potrosnjaPoSatu.cs" />
+    <Compile Include="Klase\Dan.cs" />
+    <Compile Include="Klase\generisanjeDatoteka.cs" />
+    <Compile Include="Meni\AdministratorskiRezim.cs" />
+    <Compile Include="Klase\potrosnjaPoSatu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQL\Connection.cs" />
     <Compile Include="SQL\Skriptovi.cs" />
-    <Compile Include="Unos.cs" />
+    <Compile Include="Meni\Unos.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

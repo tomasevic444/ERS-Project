@@ -34,7 +34,6 @@ namespace EvidencijaElEnegije.SQL
         public void dodajElement(potrosnjaPoSatu pps, Dan d)
         {
             DateTime datum = new DateTime(d.godina, d.mesec, d.dan);
-            Console.WriteLine(datum.Date);
             string queryInsert = "insert into podatak (load, datum, potrosnja, sat, oblast) values (:load, :datum, :potrosnja, :sat, :oblast)";
             string queryUpdate = "update podatak set load=:load where datum=:datum and potrosnja=:potrosnja and sat=:sat and  oblast=:oblast";
 
