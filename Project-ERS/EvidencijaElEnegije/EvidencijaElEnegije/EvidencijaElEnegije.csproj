@@ -83,6 +83,8 @@
     <Compile Include="Klase\generisanjeDatoteka.cs" />
     <Compile Include="Meni\AdministratorskiRezim.cs" />
     <Compile Include="Klase\potrosnjaPoSatu.cs" />
+    <Compile Include="PrognoziraneIOstvarenePotrosnje\CosumptionData.cs" />
+    <Compile Include="PrognoziraneIOstvarenePotrosnje\PrognoziranePotrosnje.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQL\Connection.cs" />
