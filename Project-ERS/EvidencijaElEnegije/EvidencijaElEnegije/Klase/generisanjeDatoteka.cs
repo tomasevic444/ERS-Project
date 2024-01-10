@@ -323,7 +323,7 @@ namespace EvidencijaElEnegije
         public void datotekaGreske(Dan d, string FIlePAth, string FileName)
         {
             DateTime trenutnoVremeLokalno = DateTime.Now;
-            string putanjaDoXmlDatoteke = DirektorijumPath.PathGreske + "GRESKA_" + trenutnoVremeLokalno.ToString().Replace(' ', '_').Replace(':', '_').Replace('.', '_') + "_" + trenutnoVremeLokalno.Millisecond + ".xml";
+            string putanjaDoXmlDatoteke = DirektorijumPath.PathGreske + "\\GRESKA_" + trenutnoVremeLokalno.ToString().Replace(' ', '_').Replace(':', '_').Replace('.', '_') + "_" + trenutnoVremeLokalno.Millisecond + ".xml";
 
             string putanjaDoXmlDatotekebrRedova = FIlePAth;
             XDocument xmlDoc = XDocument.Load(putanjaDoXmlDatotekebrRedova);

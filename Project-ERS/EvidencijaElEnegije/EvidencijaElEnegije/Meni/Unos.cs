@@ -9,6 +9,7 @@ using System.Xml;
 using System.Xml.Linq;
 using EvidencijaElEnegije.SQL;
 using EvidencijaElEnegije.Meni;
+using EvidencijaElEnegije.EvidencijaPodrucja;
 
 namespace EvidencijaElEnegije
 {
@@ -16,6 +17,7 @@ namespace EvidencijaElEnegije
     {
         private static readonly Skriptovi s = new Skriptovi();
         private static readonly generisanjeDatoteka generisanjeDatoteka = new generisanjeDatoteka();
+        private static List<GeografskoPodrucje> geografskaPodrucja = new List<GeografskoPodrucje>();
         public void meni()
         {
 
@@ -123,7 +125,7 @@ namespace EvidencijaElEnegije
         public void upisUBazuPodataka(List<potrosnjaPoSatu> ppsList, List<Dan> danList)
         {
 
-            string putanjaDoXmlDatoteke = DirektorijumPath.PathBazaPodataka + "BazaPodataka.xml";
+            string putanjaDoXmlDatoteke = DirektorijumPath.PathBazaPodataka + "\\BazaPodataka.xml";
 
 
             using (XmlWriter writer = XmlWriter.Create(putanjaDoXmlDatoteke))
@@ -140,6 +142,7 @@ namespace EvidencijaElEnegije
                         DodajXmlElement(writer, "Sat", entity.sat.ToString());
                         DodajXmlElement(writer, "Load", entity.load.ToString());
                         DodajXmlElement(writer, "Oblast", entity.getStringOblast(entity.oblast));
+                        proveraGeografskog(entity.getStringOblast(entity.oblast));
                         writer.WriteEndElement();
                     }
 
@@ -149,11 +152,66 @@ namespace EvidencijaElEnegije
                 writer.WriteEndElement();
 
 
-                Console.WriteLine($"Podaci su upisani u XML datoteku: {putanjaDoXmlDatoteke}");
-
 
             }
         }
+        public void proveraGeografskog(string sifra)
+        {
+
+            string path = DirektorijumPath.PathBazaPodataka + "\\GeografskaPodrucja.xml";
+
+            ucitajGeografskaPodrucjaIzXml();
+            if (!geografskaPodrucja.Any(gp => gp.Sifra == sifra))
+            {
+            
+
+                geografskaPodrucja.Add(new GeografskoPodrucje(sifra));
+
+                using (XmlWriter writer = XmlWriter.Create(path))
+                {
+                    writer.WriteStartElement("GEOGRAFSKA_PODRUCJA");
+
+
+                    foreach (GeografskoPodrucje gp in geografskaPodrucja)
+                    {
+                        writer.WriteStartElement("PODRUCJE");
+                        DodajXmlElement(writer, "Sifra", gp.Sifra);
+                        DodajXmlElement(writer, "Naziv", gp.Naziv);
+                        DodajXmlElement(writer, "Sirina", gp.Sirina);
+                        writer.WriteEndElement();
+                    }
+
+
+                    writer.WriteEndElement();
+
+                  
+                }
+
+                Console.WriteLine($"Geografsko područje sa šifrom {sifra} je uspešno dodato.");
+            }
+
+
+        }
+        public void ucitajGeografskaPodrucjaIzXml()
+        {
+            XDocument xmlDoc = XDocument.Load(DirektorijumPath.PathBazaPodataka + "\\GeografskaPodrucja.xml");
+
+            foreach (XElement podrucjeElement in xmlDoc.Descendants("PODRUCJE"))
+            {
+                string sifra = podrucjeElement.Element("Sifra").Value;
+     
+
+                geografskaPodrucja.Add(new GeografskoPodrucje(sifra));
+            }
+
+    
+        }
+        
+
+      
+     
+
+
         //F-ja za lakse dodavanje elemenata u XML datoteci
         public void DodajXmlElement(XmlWriter writer, string nazivElementa, string vrednost)
         {

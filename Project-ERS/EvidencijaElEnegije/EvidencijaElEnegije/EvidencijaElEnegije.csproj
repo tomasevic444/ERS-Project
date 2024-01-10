@@ -79,6 +79,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EvidencijaPodrucja\GeografskoPodrucje.cs" />
     <Compile Include="Klase\Dan.cs" />
     <Compile Include="Klase\generisanjeDatoteka.cs" />
     <Compile Include="Meni\AdministratorskiRezim.cs" />
