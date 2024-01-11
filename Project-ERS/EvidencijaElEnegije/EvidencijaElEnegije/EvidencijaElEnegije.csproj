@@ -80,12 +80,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Klase\Dan.cs" />
-    <Compile Include="Klase\generisanjeDatoteka.cs" />
+    <Compile Include="ClassWithConstructor\Dan.cs" />
+    <Compile Include="ClassWithConstructor\generisanjeDatoteka.cs" />
     <Compile Include="Meni\AdministratorskiRezim.cs" />
-    <Compile Include="Klase\potrosnjaPoSatu.cs" />
-    <Compile Include="Meni\ReadDat.cs" />
-    <Compile Include="Meni\WriteDat.cs" />
+    <Compile Include="ClassWithConstructor\potrosnjaPoSatu.cs" />
+    <Compile Include="InputOutput\ReadDat.cs" />
+    <Compile Include="InputOutput\WriteDat.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQL\Connection.cs" />
