@@ -21,7 +21,7 @@ namespace EvidencijaElEnegije
             {
 
                 //string putanjaDoXmlDatoteke = @"C:\Users\SRDJAN\Desktop\faks\Treca godina\ERS\Projekat\Project-ERS\Datoteke\prog_2023_05_" + (i > 9 ? i.ToString() : ("0" + i)) + ".xml";
-                string putanjaDoXmlDatoteke = DirektorijumPath.PathDatoteke + (ostvarena ? "ostv" : "prog") + "_2023_05_" + (i > 9 ? i.ToString() : ("0" + i)) + ".xml";
+                string putanjaDoXmlDatoteke = DirektorijumPath.PathDatoteke + "\\"+ (ostvarena ? "ostv" : "prog") + "_2023_05_" + (i > 9 ? i.ToString() : ("0" + i)) + ".xml";
 
 
                 using (XmlWriter writer = XmlWriter.Create(putanjaDoXmlDatoteke))
@@ -117,9 +117,9 @@ namespace EvidencijaElEnegije
 
 
                         // Dodavanje elemenata
-                        DodajXmlElement(writer, "Sat", j.ToString());
-                        DodajXmlElement(writer, "Load", load.ToString());
-                        DodajXmlElement(writer, "Oblast", "VOJ");
+                        DodajXmlElement(writer, "SAT", j.ToString());
+                        DodajXmlElement(writer, "LOAD", load.ToString());
+                        DodajXmlElement(writer, "OBLAST", "VOJ");
 
                         writer.WriteEndElement();
                     }
@@ -286,65 +286,8 @@ namespace EvidencijaElEnegije
 
             } while (!unosStr.ToUpper().Equals("X"));
         }
-        //Generisanje datoteke -> F-ja se pozove nakon ispravno unestih podataka prilikom rucnog unosenja datoteke -> Unos.rucnoKreiranjeDatoteke()
-        public bool rucnoKreiranjeDatoteke(Dan d, int ostvarena)
-        {
 
-            string putanjaDoXmlDatoteke = DirektorijumPath.PathDatoteke + (d.ostvarena ? "ostv" : "prog") + "_" + d.godina + "_" + d.mesec + "_" + (d.dan > 9 ? d.dan.ToString() : ("0" + d.dan)) + ".xml";
-
-            using (XmlWriter writer = XmlWriter.Create(putanjaDoXmlDatoteke))
-            {
-                writer.WriteStartElement((d.ostvarena ? "OSTVARENA_LOAD_" : "PROGNOZIRANI_LOAD_"));
-
-
-                // Pisanje početnog elementa
-                writer.WriteStartElement("STAVKA");
-
-                foreach (potrosnjaPoSatu pps in d.ppsList)
-                {
-                    DodajXmlElement(writer, "Sat", pps.sat.ToString());
-                    DodajXmlElement(writer, "Load", pps.load.ToString());
-                    DodajXmlElement(writer, "Oblast", pps.getStringOblast(pps.oblast));
-                }
-
-                writer.WriteEndElement();
-
-                writer.WriteEndElement();
-
-                Console.WriteLine($"Podaci su upisani u XML datoteku: {putanjaDoXmlDatoteke}");
-
-
-            }
-
-
-            return true;
-        }
-        //Generisanje XML datoteke pokusaja ubacivanja ne validnih datoteka u BP
-        public void datotekaGreske(Dan d, string FIlePAth, string FileName)
-        {
-            DateTime trenutnoVremeLokalno = DateTime.Now;
-            string putanjaDoXmlDatoteke = DirektorijumPath.PathGreske + "GRESKA_" + trenutnoVremeLokalno.ToString().Replace(' ', '_').Replace(':', '_').Replace('.', '_') + "_" + trenutnoVremeLokalno.Millisecond + ".xml";
-
-            string putanjaDoXmlDatotekebrRedova = FIlePAth;
-            XDocument xmlDoc = XDocument.Load(putanjaDoXmlDatotekebrRedova);
-
-            // Broj elemenata u XML datoteci (pretpostavljamo da svaki red predstavlja jedan element)
-            int brojRedova = xmlDoc.Descendants().Count();
-
-            using (XmlWriter writer = XmlWriter.Create(putanjaDoXmlDatoteke))
-            {
-                writer.WriteStartElement("GRESKA");
-                DodajXmlElement(writer, "Vreme_pokusaja_ucitavanja", trenutnoVremeLokalno.ToString());
-                DodajXmlElement(writer, "Ime_fajla", FileName);
-                DodajXmlElement(writer, "Lokacija_fajla", FIlePAth);
-                DodajXmlElement(writer, "Broj_redova_fajla", brojRedova.ToString());
-                writer.WriteEndElement();
-
-                Console.WriteLine($"Podaci su upisani u XML datoteku: {putanjaDoXmlDatoteke}");
-            }
-
-        }
-        //Generisanje XML datoteka koje nisu validne
+        //Generisanje datoteka koje nisu validne
         public void GenerisanjeNeispravnihDatoteka(bool ostvarena)
         {
 
@@ -352,7 +295,7 @@ namespace EvidencijaElEnegije
             {
 
                 //string putanjaDoXmlDatoteke = @"C:\Users\SRDJAN\Desktop\faks\Treca godina\ERS\Projekat\Project-ERS\Datoteke\prog_2023_05_" + (i > 9 ? i.ToString() : ("0" + i)) + ".xml";
-                string putanjaDoXmlDatoteke = DirektorijumPath.PathDatoteke + (ostvarena ? "ostv" : "prog") + "_2024_05_" + (i > 9 ? i.ToString() : ("0" + i)) + ".xml";
+                string putanjaDoXmlDatoteke = DirektorijumPath.PathDatoteke + (ostvarena ? "ostv" : "prog") + "_2026_05_" + (i > 9 ? i.ToString() : ("0" + i)) + ".xml";
 
 
                 using (XmlWriter writer = XmlWriter.Create(putanjaDoXmlDatoteke))

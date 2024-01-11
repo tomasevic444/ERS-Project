@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace EvidencijaElEnegije
 {
-    internal class Dan
+    class Dan
     {
         public List<potrosnjaPoSatu> ppsList = new List<potrosnjaPoSatu>();
 
         // ostv -> true | prog -> flase
         public bool ostvarena { get; set; }
 
-        public potrosnjaPoSatu pps { get; set; }
         public int dan { get; set; }
         public int mesec { get; set; }
         public int godina { get; set; }
@@ -24,14 +23,6 @@ namespace EvidencijaElEnegije
             ppsList = PPS;
         }
 
-        public Dan(int DAN, int MESEC, int GODINA, bool OSTVARENA,potrosnjaPoSatu PPS)
-        {
-            dan = DAN;
-            mesec = MESEC;
-            godina = GODINA;
-            ostvarena = OSTVARENA;
-            pps = PPS;
-        }
 
         public Dan(int DAN, int MESEC, int GODINA, List<potrosnjaPoSatu> PPSLIST)
         {
@@ -39,6 +30,15 @@ namespace EvidencijaElEnegije
             mesec = MESEC;
             godina = GODINA;
             ppsList = PPSLIST;
+        }
+
+        public Dan(int DAN, int MESEC, int GODINA, bool OSTVARENA, List<potrosnjaPoSatu> PPSLIST)
+        {
+            dan = DAN;
+            mesec = MESEC;
+            godina = GODINA;
+            ppsList = PPSLIST;
+            ostvarena = OSTVARENA;
         }
 
         public Dan(List<potrosnjaPoSatu> PPS, bool OSTVARENA, int DAN, int MESEC, int GODINA)
@@ -58,4 +58,5 @@ namespace EvidencijaElEnegije
 
 
     }
+
 }
