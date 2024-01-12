@@ -56,3 +56,10 @@ C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije
 C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\obj\Debug\EvidencijaElEnegije.csproj.CopyComplete
 C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\obj\Debug\EvidencijaElEnegije.exe
 C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\obj\Debug\EvidencijaElEnegije.pdb
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\Castle.Core.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\Moq.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\Castle.Core.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\Moq.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\nunit.framework.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\nunit.framework.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\nunit.framework.pdb

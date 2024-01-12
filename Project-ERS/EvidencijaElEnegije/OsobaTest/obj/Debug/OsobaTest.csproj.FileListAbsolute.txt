@@ -1,0 +1,65 @@
+C:\Users\Zorana\source\repos\UTG2\OsobaTest\bin\Debug\OsobaTest.dll
+C:\Users\Zorana\source\repos\UTG2\OsobaTest\bin\Debug\OsobaTest.pdb
+C:\Users\Zorana\source\repos\UTG2\OsobaTest\bin\Debug\Common.dll
+C:\Users\Zorana\source\repos\UTG2\OsobaTest\bin\Debug\nunit.framework.dll
+C:\Users\Zorana\source\repos\UTG2\OsobaTest\bin\Debug\Osoba.dll
+C:\Users\Zorana\source\repos\UTG2\OsobaTest\bin\Debug\Common.pdb
+C:\Users\Zorana\source\repos\UTG2\OsobaTest\bin\Debug\Osoba.pdb
+C:\Users\Zorana\source\repos\UTG2\OsobaTest\bin\Debug\nunit.framework.xml
+C:\Users\Zorana\source\repos\UTG2\OsobaTest\obj\Debug\OsobaTest.csprojAssemblyReference.cache
+C:\Users\Zorana\source\repos\UTG2\OsobaTest\obj\Debug\OsobaTest.csproj.CoreCompileInputs.cache
+C:\Users\Zorana\source\repos\UTG2\OsobaTest\obj\Debug\OsobaTest.csproj.CopyComplete
+C:\Users\Zorana\source\repos\UTG2\OsobaTest\obj\Debug\OsobaTest.dll
+C:\Users\Zorana\source\repos\UTG2\OsobaTest\obj\Debug\OsobaTest.pdb
+C:\Users\Zorana\source\repos\UT prvi zadatak\OsobaTest\bin\Debug\OsobaTest.dll
+C:\Users\Zorana\source\repos\UT prvi zadatak\OsobaTest\bin\Debug\OsobaTest.pdb
+C:\Users\Zorana\source\repos\UT prvi zadatak\OsobaTest\bin\Debug\Common.dll
+C:\Users\Zorana\source\repos\UT prvi zadatak\OsobaTest\bin\Debug\nunit.framework.dll
+C:\Users\Zorana\source\repos\UT prvi zadatak\OsobaTest\bin\Debug\Osoba.dll
+C:\Users\Zorana\source\repos\UT prvi zadatak\OsobaTest\bin\Debug\Common.pdb
+C:\Users\Zorana\source\repos\UT prvi zadatak\OsobaTest\bin\Debug\Osoba.pdb
+C:\Users\Zorana\source\repos\UT prvi zadatak\OsobaTest\bin\Debug\nunit.framework.xml
+C:\Users\Zorana\source\repos\UT prvi zadatak\OsobaTest\obj\Debug\OsobaTest.csprojAssemblyReference.cache
+C:\Users\Zorana\source\repos\UT prvi zadatak\OsobaTest\obj\Debug\OsobaTest.csproj.CoreCompileInputs.cache
+C:\Users\Zorana\source\repos\UT prvi zadatak\OsobaTest\obj\Debug\OsobaTest.csproj.CopyComplete
+C:\Users\Zorana\source\repos\UT prvi zadatak\OsobaTest\obj\Debug\OsobaTest.dll
+C:\Users\Zorana\source\repos\UT prvi zadatak\OsobaTest\obj\Debug\OsobaTest.pdb
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\OsobaTest.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\OsobaTest.pdb
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\Castle.Core.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\EvidencijaElEnegije.exe
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\Moq.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\nunit.framework.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\System.Text.Json.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\System.Formats.Asn1.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\System.Memory.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\System.ValueTuple.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\System.Buffers.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\EvidencijaElEnegije.pdb
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\EvidencijaElEnegije.exe.config
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\Castle.Core.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\Moq.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\nunit.framework.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\System.Text.Json.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\System.Formats.Asn1.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\System.Memory.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\System.ValueTuple.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\System.Buffers.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\obj\Debug\OsobaTest.csproj.AssemblyReference.cache
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\obj\Debug\OsobaTest.csproj.CoreCompileInputs.cache
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\obj\Debug\OsobaTest.csproj.CopyComplete
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\obj\Debug\OsobaTest.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\obj\Debug\OsobaTest.pdb
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\OsobaTest.dll.config
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\OsobaTest\bin\Debug\nunit.framework.pdb

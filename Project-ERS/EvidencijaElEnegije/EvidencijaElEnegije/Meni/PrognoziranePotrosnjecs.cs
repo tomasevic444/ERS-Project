@@ -12,7 +12,7 @@ using EvidencijaElEnegije.PrognoziranelOstvarenePotrosnje;
 
 namespace EvidencijaElEnegije.PrognoziraneIOstvarenePotrosnje
 {
-    class PrognoziranePotrosnje
+   public  class PrognoziranePotrosnje
     {
 
         static List<ConsumptionData> consumptionDataList = new List<ConsumptionData>();
