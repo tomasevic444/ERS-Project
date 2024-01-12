@@ -1,4 +1,6 @@
-﻿using EvidencijaElEnegije.SQL;
+﻿using EvidencijaElEnegije.Klase;
+using EvidencijaElEnegije.Konstruktori;
+using EvidencijaElEnegije.SQL;
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
@@ -15,6 +17,8 @@ namespace EvidencijaElEnegije.Meni
         private static readonly generisanjeDatoteka generisanjeHendler = new generisanjeDatoteka();
         private static readonly ReadDat readHendler = new ReadDat();
         private static readonly Skriptovi s = new Skriptovi();
+        private static List<GeografskoPodrucje> geografskaPodrucja = new List<GeografskoPodrucje>();
+        private readonly GeoAreasMenager geospatialManager = new GeoAreasMenager();
 
         //Baza Podataka -> Pravljenje XML datoteke u kojoj ce biti smestene odabrane datoteke
         public void upisUBazuPodataka(List<Dan> danList)
@@ -43,6 +47,7 @@ namespace EvidencijaElEnegije.Meni
                         DodajXmlElement(writer, "Sat", entity.sat.ToString());
                         DodajXmlElement(writer, "Load", entity.load.ToString());
                         DodajXmlElement(writer, "Oblast", entity.getStringOblast(entity.oblast));
+                        geospatialManager.ProveraGeografskog(entity.getStringOblast(entity.oblast));
                         writer.WriteEndElement();
                     }
 

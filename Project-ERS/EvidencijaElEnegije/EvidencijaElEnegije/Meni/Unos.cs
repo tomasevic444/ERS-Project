@@ -16,6 +16,7 @@ public class DirektorijumPath
     public static readonly string PathDatoteke = Path.Combine(PathProjekta, "Datoteke");
     public static readonly string PathBazaPodataka = Path.Combine(PathProjekta, "Baza Podataka");
     public static readonly string PathGreske = Path.Combine(PathProjekta, "Datoteke", "GRESKE");
+    public static readonly string PathOdstupanja = Path.Combine(PathProjekta, "Datoteke", "RELATIVNA-ODSTUPANJA");
 }
 
 public class PomeranjeSata

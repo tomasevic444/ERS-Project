@@ -27,3 +27,32 @@ C:\Users\SRDJAN\Desktop\faks\Treca godina\ERS\Projekat\Project-ERS\EvidencijaElE
 C:\Users\SRDJAN\Desktop\faks\Treca godina\ERS\Projekat\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\SRDJAN\Desktop\faks\Treca godina\ERS\Projekat\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.ValueTuple.xml
 C:\Users\SRDJAN\Desktop\faks\Treca godina\ERS\Projekat\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\obj\Debug\EvidencijaElEnegije.csproj.CopyComplete
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\EvidencijaElEnegije.exe.config
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\EvidencijaElEnegije.exe
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\EvidencijaElEnegije.pdb
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.Buffers.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.Formats.Asn1.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.Memory.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.Text.Json.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.ValueTuple.dll
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.Buffers.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.Formats.Asn1.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.Memory.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.Text.Json.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\bin\Debug\System.ValueTuple.xml
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\obj\Debug\EvidencijaElEnegije.csproj.AssemblyReference.cache
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\obj\Debug\EvidencijaElEnegije.csproj.CoreCompileInputs.cache
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\obj\Debug\EvidencijaElEnegije.csproj.CopyComplete
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\obj\Debug\EvidencijaElEnegije.exe
+C:\Users\Tomas\Desktop\ERS-3\Project-ERS\EvidencijaElEnegije\EvidencijaElEnegije\obj\Debug\EvidencijaElEnegije.pdb
