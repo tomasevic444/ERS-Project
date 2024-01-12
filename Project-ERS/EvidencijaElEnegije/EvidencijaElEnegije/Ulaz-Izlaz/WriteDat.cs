@@ -1,5 +1,6 @@
 ﻿using EvidencijaElEnegije.Klase;
 using EvidencijaElEnegije.Konstruktori;
+using EvidencijaElEnegije.Logika;
 using EvidencijaElEnegije.SQL;
 using System;
 using System.Collections.Generic;

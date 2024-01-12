@@ -1,4 +1,5 @@
-﻿using EvidencijaElEnegije.SQL;
+﻿using EvidencijaElEnegije.Logika;
+using EvidencijaElEnegije.SQL;
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
@@ -11,7 +12,7 @@ using System.Xml.Linq;
 
 namespace EvidencijaElEnegije.Meni
 {
-    class ReadDat
+   public class ReadDat
     {
         private static readonly generisanjeDatoteka generisanjeDatoteka = new generisanjeDatoteka();
         private static readonly WriteDat writeHendler = new WriteDat();
@@ -152,7 +153,7 @@ namespace EvidencijaElEnegije.Meni
             DateTime trenutnoVremeLokalno = DateTime.Now;
             if (d.mesec > 12 || d.mesec < 1)
             {
-                writeHendler.datotekaGreske(d, Path, Datoteka);
+               // writeHendler.datotekaGreske(d, Path, Datoteka);
                 throw new ArgumentException("Mesec mora da ima vrednost veću od 0 i manju od 13");
             }
 

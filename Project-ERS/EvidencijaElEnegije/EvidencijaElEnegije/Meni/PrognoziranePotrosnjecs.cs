@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using EvidencijaElEnegije.Logika;
 using EvidencijaElEnegije.PrognoziraneelOstvarenePotrosnje;
 using EvidencijaElEnegije.PrognoziraneIOstvarenePotrosnje;
 using EvidencijaElEnegije.PrognoziranelOstvarenePotrosnje;

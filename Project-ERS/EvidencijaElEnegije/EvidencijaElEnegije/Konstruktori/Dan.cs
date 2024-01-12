@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EvidencijaElEnegije
 {
-    class Dan
+    public class Dan
     {
         public List<potrosnjaPoSatu> ppsList = new List<potrosnjaPoSatu>();
 
@@ -55,7 +55,14 @@ namespace EvidencijaElEnegije
         {
             return godina + "_" + mesec + "_" + dan;
         }
+        public Dan(int DAN, int MESEC, int GODINA, bool OSTVARENA)
+        {
+            dan = DAN;
+            mesec = MESEC;
+            godina = GODINA;
 
+            ostvarena = OSTVARENA;
+        }
 
     }
 

@@ -1,4 +1,5 @@
-﻿using EvidencijaElEnegije.PrognoziraneIOstvarenePotrosnje;
+﻿using EvidencijaElEnegije.Logika;
+using EvidencijaElEnegije.PrognoziraneIOstvarenePotrosnje;
 using System;
 using System.Collections.Generic;
 using System.IO;

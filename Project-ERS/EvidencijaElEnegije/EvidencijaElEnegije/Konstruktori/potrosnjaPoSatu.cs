@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace EvidencijaElEnegije
 {
 
-    enum Oblast { VOJ = 1, BEO, KOSOVO, GRESKA }
+   public enum Oblast { VOJ = 1, BEO, KOSOVO, GRESKA }
 
-    class potrosnjaPoSatu
+   public  class potrosnjaPoSatu
     {
         public int sat { get; set; }
         public int load { get; set; }

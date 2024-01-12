@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.33328.57
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvidencijaElEnegije", "EvidencijaElEnegije\EvidencijaElEnegije.csproj", "{4A9A08B9-F5BB-47F6-9DAB-8E82FAC814E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsobaTest", "OsobaTest\OsobaTest.csproj", "{5184EB1C-D63B-4134-818A-21B81591421E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvidencijaTest", "OsobaTest\EvidencijaTest.csproj", "{5184EB1C-D63B-4134-818A-21B81591421E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
